@@ -22,7 +22,7 @@ class Media {
   }
 
   toggleCheckOutStatus() {
-    this.isCheckedOut = !this.isCheckedOut;
+    this._isCheckedOut = !this._isCheckedOut;
   }
 
   getAverageRating() {
